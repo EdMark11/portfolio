@@ -10,6 +10,7 @@ function App() {
     <div>
       <Navbar/>
       <Home/>
+      <div className="spacer layer1"></div>
       <About/>
       <Skills />
       <Work/>

@@ -1,131 +1,79 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
-/* import work images */
+import projectCleanup from '../assets/projectImg/ProjectCleanup.png'
+import mindactivity from '../assets/projectImg/Mindactivity.png'
+import whatsPoppin from '../assets/projectImg/WhatsPoppin.png'
 
 const Work = () => {
   return (
     <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Work</p>
-                <p className='py-6'>Check out some of my recent work</p>
+                <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Projects</p>
+                <p className='py-6'>Check out some of my projects!</p>
             </div>
             {/* container */}
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
             {/* Grid items */}
                 <div 
-                // style={{backgroundImage: `url(${WorkImg})`}} 
+                style={{backgroundImage: `url(${projectCleanup})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* hover effect */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                            Project Clean-Up
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://projectcleanup.netlify.app" target='_blank'>
                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="https://github.com/EdMark11/environment_variables_frontend" target='_blank'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div 
-                // style={{backgroundImage: `url(${WorkImg})`}} 
+                style={{backgroundImage: `url(${mindactivity})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* hover effect */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                            Mindactivity
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://mindactivity.netlify.app" target='_blank'>
                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="https://github.com/EdMark11/w9_frontend-project-mindactivity" target='_blank'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div 
-                // style={{backgroundImage: `url(${WorkImg})`}} 
+                style={{backgroundImage: `url(${whatsPoppin})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* hover effect */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                            What's Poppin'
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://movie-app-blond-nine.vercel.app" target='_blank'>
                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="https://github.com/EdMark11/movieApp" target='_blank'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div 
-                // style={{backgroundImage: `url(${WorkImg})`}} 
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* hover effect */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href="/">
-                                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div 
-                // style={{backgroundImage: `url(${WorkImg})`}} 
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* hover effect */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href="/">
-                                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div 
-                // style={{backgroundImage: `url(${WorkImg})`}} 
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* hover effect */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href="/">
-                                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+
+
             </div>
         </div>
     </div>

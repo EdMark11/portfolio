@@ -16,10 +16,10 @@ const About = () => {
                     </div>
                     <div>
                         <p>
-                            THIS IS THE PART WHERE I GIVE A QUICK ABOUT MYSELF SECTION
-                            THIS IS THE PART WHERE I GIVE A QUICK ABOUT MYSELF SECTION
-                            THIS IS THE PART WHERE I GIVE A QUICK ABOUT MYSELF SECTION
-                            THIS IS THE PART WHERE I GIVE A QUICK ABOUT MYSELF SECTION
+                            I am a graduate Sport Therapist who has always had an interest in sports and tech.
+                            During the pandemic I decided to explore my interest in tech and now my focus is to take this
+                            interest to the next level and establish myself as a successful Software Developer, creating apps 
+                            and websites that are responsive and easy to use.
                         </p>
                     </div>
                 </div>

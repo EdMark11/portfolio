@@ -8,7 +8,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#08192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2e3240b5] z-50 text-gray-300'>
         <div>EM</div>
         {/* menu */}
             <ul className='hidden md:flex'>
@@ -34,7 +34,7 @@ const Navbar = () => {
                     </Link>
                 </li>
             </ul>
-
+        
         {/* hamburger */}
         <div onClick={handleClick} className='md:hidden z-10'>
             {!nav ? <FaBars/> : <FaTimes/>}

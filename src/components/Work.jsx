@@ -6,10 +6,10 @@ import whatsPoppin from '../assets/projectImg/WhatsPoppin.png'
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+    <div name='work' className='w-full md:h-screen text-gray-300 bg-gradient-to-b from-[#a84147fc] to-[#001220]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Projects</p>
+                <p className='text-4xl font-bold inline border-b-4 border-[#ef5f67]'>Projects</p>
                 <p className='py-6'>Check out some of my projects!</p>
             </div>
             {/* container */}
